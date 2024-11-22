@@ -1,0 +1,85 @@
+
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+/* Contenedor principal */
+.container {
+    width: 80%; /* Ancho del contenedor */
+    margin: 0 auto; /* Centrado horizontal */
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    border-radius: 8px; /* Bordes redondeados */
+}
+/* Encabezado */
+header {
+    text-align: center; /* Alineación centrada */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+/* Estilo para el título */
+header h1 {
+    font-size: 2.5em; /* Tamaño de fuente */
+    color: #2a7a5e;/* Color */
+    margin: 0;/* Margen externo */
+}
+
+header p {
+    font-size: 1.2em; /* Tamaño de fuente */
+    margin: 10px 0; /* Margen superior e inferior */
+}
+/* Formulario */
+.form-section h2 {
+    color: #2a7a5e; /* Color */
+    font-size: 1.8em; /* Tamaño de fuente */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+/* Estilo para el parrafo */
+.form-section p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+/* Estilo para el formulario */
+form {
+    display: flex; /* Flexbox */
+    flex-direction: column;
+    gap: 15px; /* Espacio entre elementos */
+}
+/* Estilo para las etiquetas */
+label {
+    font-weight: bold; /* Negrita */
+    color: #2a7a5e;
+}
+
+input, textarea, button {
+    padding: 10px; /* Espacio interno */
+    border: 1px solid #ccc; /* Bordes */ 
+    border-radius: 4px; /* Bordes redondeados */
+    font-size: 1em;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button {
+    background-color: #2a7a5e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #23694d;
+}
+
+input[type="file"] { /* Estilo para el campo de archivo */
+    padding: 5px;
+}

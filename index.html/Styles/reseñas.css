@@ -1,0 +1,88 @@
+/* Estilo general */
+body {
+  
+    font-family: Arial, sans-serif; /* tipo de fuente */
+    background-color: #f5f5f5; /* color de fondo */
+   
+    color: #333;
+}
+
+/* Encabezado principal */
+h1 {
+    font-size: 3em; /* tamaño de fuente */
+    color: #2f4f4f;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase; /* mayusculas */
+}
+/* Subtítulos */
+h2 {
+    color: #2f4f4f;
+    font-size: 1.5em;
+    margin-top: 30px;
+    text-align: left;
+    border-bottom: 2px solid #2f4f4f; /* borde inferior */
+    padding-bottom: 10px; /* espacio inferior */
+    text-transform: uppercase; /* mayusculas */
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%; /* ancho */
+    max-width: 300px; /* ancho maximo */
+    margin: 0 auto; /* centrado horizontal */
+    padding: 20px;
+    background-color: #fff; /* color de fondo */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* sombra */
+    border-radius: 8px; /* bordes redondeados */
+}
+
+/* Sección de reseñas */
+.intro {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+/* Reseñas */
+.reviews {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Listado de destinos */
+.destinations ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.destinations ul li {
+    font-size: 1.1em;
+    color: #2f4f4f;
+    margin: 5px 0;
+}
+
+/* Experiencias */
+.experiences {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+    margin-top: 30px;
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 600px) { /* tamaño de pantalla */
+    h1 {
+        font-size: 2.5em; /* tamaño de fuente */
+    }
+    
+    h2 {
+        font-size: 1.3em;
+    }
+    
+    .container {
+        width: 90%;
+    }
+}
