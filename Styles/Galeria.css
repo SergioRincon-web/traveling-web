@@ -1,0 +1,97 @@
+/* Estilo general */
+body {
+    height: 100vh; /* alto de la pantalla */
+    width: 100%; /* ancho de la pantalla */
+    font-family: Arial, sans-serif; /* tipo de fuente */
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center; /* alineacion de texto */
+}
+
+/* Encabezado principal */
+header {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #2f4f4f;
+    text-transform: uppercase;
+}
+
+header p {
+    font-size: 1.2em;/* tamaño de fuente */
+    color: #666;
+}
+
+/* Sección Galería */
+.galeria {
+    display: grid; /* distribucion grid o malla  */
+    width:100%;
+    max-width: 800px; /* ancho maximo */
+    margin: 0px auto;
+    text-align: left;
+    flex-direction: row ; /* orientacion */
+    justify-content: center; /* alineacion horizontal */
+}
+/* Encabezado de la galería */
+.galeria h2 {
+    color: #2f4f4f;
+    font-size: 1.8em;
+    border-bottom: 2px solid #2f4f4f;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+/* Descripción de la galería */
+.galeria p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+    margin-top: 20px;
+}
+
+/* Categorías de la galería */
+.category {
+    margin-top: 30px;
+}
+/* Encabezado de las categorías */
+.category h3 {
+    font-size: 1.5em;
+    color: #2f4f4f;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Imágenes de la galería */
+.images {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.images img { /* estilo de galeria de imagenes*/
+    width: calc(25% - 10px); /* ancho */
+    height: 120px;   /* alto */
+    margin-bottom: 10px; /* margen inferior */
+    object-fit: cover; /* ajuste de imagen */
+    border: 2px solid #2f4f4f; /* borde */
+    border-radius: 5px; /* bordes redondeados */
+}
+/* Pie de página */
+.TEXTOFOO{
+    color: #2f4f4f;
+    font-size: 1em;
+}
+
+/* Responsivo para pantallas pequeñas */
+@media (max-width: 600px) {
+    .galeria {
+        width: 90%;
+    }
+
+    .images img {
+        width: calc(50% - 10px);
+    }
+}
